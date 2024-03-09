@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Authentication page</title>
+    <link rel="stylesheet" href="authentication.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik+Burned&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <form action="verify_page.html">
+        <div class="authentication">
+            <div class="page">
+                <div class="logo">
+                    <img src="images/NIT_Logo.png" id="Nit"><br>
+                    <h1>Authentication Required</h1>
+                </div>
+                <div class="login">
+                    <h2>Please enter your username and password to continue.</h2>
+                    <br><br>
+                    <label for="user" class="user">Username:
+                        <input type="text" id="user" required>
+                    </label><br>
+                    <label for="user" class="user">Password:
+                        <input type="password" id="user" required>
+                    </label><br>
+                    <button type="submit">Continue</button><br><br>
+                    <a href="#password">Change Password</a><br>
+                </div>
+            </div>
+        </div>
+    </form>
+</body>
+
+</html>
